@@ -6,7 +6,7 @@ public class Test {
         People p2 = new People("Pedro", 20);
 
         // Comparacion de atributos con modificadores de acceso por default y private
-        // a la hora de mostrar en pantalla los 
+        // a la hora de mostrar en pantalla los atributos
         // por medio de los metods getName() y getAge() que son publicos 
         // No nos arroja error
         System.out.println(p1.getName());
@@ -16,7 +16,7 @@ public class Test {
         // Ya que no es visible (private)
         System.out.println(p2.name);
 
-        // Mientras que si lo hacemos con la edad nos lo permite ya que es de paquete su acceso
+        // Mientras que si lo hacemos con la edad nos lo permite ya que es de paquete (default) su acceso 
         System.out.println(p2.age);
 
 
